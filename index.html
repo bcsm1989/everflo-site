@@ -73,5 +73,6 @@
 function sel(i,focus){tabs.forEach(function(b,j){b.setAttribute('aria-selected',j===i?'true':'false');b.tabIndex=j===i?0:-1;});var d=D[i];img.src=d.img;img.alt=d.name;nm.textContent=d.name;ds.textContent=d.desc;pn.setAttribute('aria-labelledby','tab'+i);if(focus)tabs[i].focus();}
 tabs.forEach(function(b,i){b.addEventListener('click',function(){sel(i)});b.addEventListener('keydown',function(ev){if(ev.key==='ArrowRight')sel((i+1)%tabs.length,1);if(ev.key==='ArrowLeft')sel((i+tabs.length-1)%tabs.length,1);});});sel(0);})();
 </script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "609f2c7eae7b4bac8e9ff29ee491e530"}'></script>
 </body>
 </html>
