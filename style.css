@@ -113,3 +113,10 @@ h2.lg{font-size:clamp(36px,5vw,64px)}
 .media.duo figcaption{font-size:14px;color:#424245;margin-top:8px}
 .ctas.left{justify-content:flex-start}
 @media (max-width:720px){.media.duo{grid-template-columns:1fr}.media.duo img{aspect-ratio:4/3}.band img{aspect-ratio:16/10}}
+.amen{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin-top:44px}
+.am{margin:0;background:#fff;border:1px solid rgba(0,0,0,.07);border-radius:24px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 1px 2px rgba(0,0,0,.04),0 12px 32px rgba(0,0,0,.05)}
+.am img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.am .amicon{aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;background:radial-gradient(closest-side,rgba(159,195,255,.45),rgba(242,181,154,.18) 70%,#fff)}
+.am figcaption{padding:18px 20px 22px;display:flex;flex-direction:column;gap:6px}
+.am figcaption strong{font-size:18px;font-weight:600}
+.am figcaption span{font-size:15px;color:#6E6E73;line-height:1.5}
