@@ -94,3 +94,11 @@ h2.lg{font-size:clamp(36px,5vw,64px)}
 @supports (animation-timeline:view()){@keyframes rv{from{opacity:0;transform:translateY(48px)}to{opacity:1;transform:none}}.reveal{animation:rv linear both;animation-timeline:view();animation-range:entry 0% cover 30%}}
 @media (max-width:720px){.wrap{padding:0 20px}.nav{display:none}.hero{min-height:640px}.ptext{padding:32px 24px}.sec{padding-top:88px}}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto}}
+.power{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:24px 48px;padding-top:56px;padding-bottom:24px;text-align:left}
+.pbig{display:flex;align-items:baseline;gap:8px;font-family:'Outfit',sans-serif;line-height:1}
+.pbig strong{font-size:clamp(96px,14vw,184px);font-weight:700;letter-spacing:-.05em;background:linear-gradient(90deg,#3A5FA8,#5480D6 45%,#D9866A);-webkit-background-clip:text;background-clip:text;color:transparent}
+.pbig span{font-size:clamp(32px,4vw,56px);font-weight:600;color:#1D1D1F}
+.ptxt{max-width:440px;display:flex;flex-direction:column;gap:10px}
+.ptxt p{margin:0;font-size:18px;line-height:1.6;color:#424245}
+.ptxt .plabel{font-size:24px;color:#1D1D1F}
+.chips strong{font-weight:700}
